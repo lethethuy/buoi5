@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-container{
+    width: 500px;
+}
+
+.blog-container .img{ 
+    position: relative;    
+}
+
+/* .blog-container .img .imge{
+    width: 100%;    
+   
+} */
+
+.blog-container .img .view{
+    background-color: rgb(36 44 40 / 71%);
+    padding: 15px;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 100%;  
+}
+
+

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    height: 1000px;
+    background-color: #a922b9;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .box{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    background-color: #6c0178;
+}
+
+
+
+.container .nav {
+    position: absolute;
+    left: 0;
+    color: black;
+    top: 200px;
+
+
+}
+
+.container .box .content{
+    padding: 20px;
+    position: absolute;
+    top: 0;    
+}
+
+

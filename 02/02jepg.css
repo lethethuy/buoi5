@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(./img/eagle-7699066_1280.webp);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+    padding: 30px;
+    font-size: 25px;
+    position: relative;
+    color: white;
+}
+
+.container .content{
+    position: absolute;
+    bottom: 30px;
+}
+
+.container .content .secondcontent{
+    padding: 20px 0px;
+}
+
+.container .content .btn{
+    padding: 5px;
+    border-radius: 50%;
+    min-width: 30px;
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: transparent;
+
+
+}
